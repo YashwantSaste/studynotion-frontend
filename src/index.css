@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow{
+    position: absolute;
+    right: -815.262px;
+    top: -28.032px;
+    border-radius: 749.262px;
+    opacity: 0.6;
+    background: var(--gradient-03, linear-gradient(138deg, #9CECFB 0%, #65C7F7 50%, #0052D4 100%));
+    filter: blur(34px);
+}
