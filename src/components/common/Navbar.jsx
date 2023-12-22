@@ -59,7 +59,7 @@ const Navbar = () => {
                     <AiOutlineDown />
                     <div className='invisible absolute left-[-10%] top-[50%] translate-y-[20%] z-[1000] flex flex-col rounded-md bg-richblack-5 p-4 text-richblack-900 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 lg:w-[300px]'>
                       <div className='absolute left-[0%] top-0 h-6 w-6 translate-x-[80%] translate-y-[-20%] rotate-45 -z-10 select-none rounded bg-richblack-5'></div>
-                      {subLinks.length ? (
+                      {subLinks && subLinks.length ? (
                         subLinks.map((sublink, index) => (
                           <Link to={`/catalog/${sublink.name.split(" ").join("-").toLowerCase()}`} key={index}>
                             <p>{sublink?.name}</p>
