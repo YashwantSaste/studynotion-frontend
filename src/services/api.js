@@ -72,7 +72,3 @@ export const settingsEndpoints = {
   DELETE_PROFILE_API: BASE_URL + "/profile/deleteProfile",
 }
 
-//ASSISTANT PAGE API
-export const assistantEndPoints={
-  ASSISTANT_API: BASE_URL + "/assistant",
-}
